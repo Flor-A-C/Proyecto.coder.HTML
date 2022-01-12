@@ -1,0 +1,4269 @@
+/*=============== DISNEY ===============*/
+/*=========== MARVEL ===========*/
+/*wanda*/
+.bannerwanda{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Disney/Marvel/wandavision.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerwanda .contentwanda{
+    max-width: 550px;
+  }
+  .bannerwanda .contentwanda h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerwanda .contentwanda h2 span{
+    font-weight: 800;
+  }
+  .bannerwanda .contentwanda p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidewanda{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/VDMEO2PH55BXPI2ACF3KY235VM.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerwanda{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerwanda .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerwanda video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerwanda .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerwanda{
+    padding: 100px 50px;
+  }
+  .bannerwanda .contentwanda h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerwanda .contentwanda p{
+    font-size: 1em;
+  }
+  .slidewanda{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerwanda video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*wanda*/
+  
+  /*eternals*/
+  .bannereternals{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Disney/marvel/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannereternals .contenteternals{
+    max-width: 550px;
+  }
+  .bannereternals .contenteternals h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannereternals .contenteternals h2 span{
+    font-weight: 800;
+  }
+  .bannereternals .contenteternals p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slideeternals{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/Eternals-Pelicula-Poster-Marvel-Studios-Afiche-Entradas-Preventa-Peru-819x1024.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailereternals{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailereternals .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailereternals video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailereternals .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannereternals{
+    padding: 100px 50px;
+  }
+  .bannereternals .contenteternals h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannereternals .contenteternals p{
+    font-size: 1em;
+  }
+  .slideeternals{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailereternals video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*eternals*/
+/*=========== MARVEL ===========*/
+
+/*=========== NAT. G. ===========*/
+/*wanda*/
+.bannerwanda{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Disney/Marvel/wandavision.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerwanda .contentwanda{
+    max-width: 550px;
+  }
+  .bannerwanda .contentwanda h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerwanda .contentwanda h2 span{
+    font-weight: 800;
+  }
+  .bannerwanda .contentwanda p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidewanda{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/VDMEO2PH55BXPI2ACF3KY235VM.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerwanda{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerwanda .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerwanda video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerwanda .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerwanda{
+    padding: 100px 50px;
+  }
+  .bannerwanda .contentwanda h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerwanda .contentwanda p{
+    font-size: 1em;
+  }
+  .slidewanda{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerwanda video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*wanda*/
+  
+  /*eternals*/
+  .bannereternals{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Disney/marvel/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannereternals .contenteternals{
+    max-width: 550px;
+  }
+  .bannereternals .contenteternals h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannereternals .contenteternals h2 span{
+    font-weight: 800;
+  }
+  .bannereternals .contenteternals p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slideeternals{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/Eternals-Pelicula-Poster-Marvel-Studios-Afiche-Entradas-Preventa-Peru-819x1024.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailereternals{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailereternals .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailereternals video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailereternals .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannereternals{
+    padding: 100px 50px;
+  }
+  .bannereternals .contenteternals h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannereternals .contenteternals p{
+    font-size: 1em;
+  }
+  .slideeternals{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailereternals video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*eternals*/
+/*=========== NAT. G. ===========*/
+
+/*=========== DISNEY ===========*/
+/*wanda*/
+.bannerwanda{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Disney/Marvel/wandavision.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerwanda .contentwanda{
+    max-width: 550px;
+  }
+  .bannerwanda .contentwanda h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerwanda .contentwanda h2 span{
+    font-weight: 800;
+  }
+  .bannerwanda .contentwanda p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidewanda{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/VDMEO2PH55BXPI2ACF3KY235VM.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerwanda{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerwanda .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerwanda video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerwanda .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerwanda{
+    padding: 100px 50px;
+  }
+  .bannerwanda .contentwanda h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerwanda .contentwanda p{
+    font-size: 1em;
+  }
+  .slidewanda{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerwanda video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*wanda*/
+  
+  /*eternals*/
+  .bannereternals{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Disney/marvel/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannereternals .contenteternals{
+    max-width: 550px;
+  }
+  .bannereternals .contenteternals h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannereternals .contenteternals h2 span{
+    font-weight: 800;
+  }
+  .bannereternals .contenteternals p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slideeternals{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/Eternals-Pelicula-Poster-Marvel-Studios-Afiche-Entradas-Preventa-Peru-819x1024.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailereternals{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailereternals .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailereternals video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailereternals .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannereternals{
+    padding: 100px 50px;
+  }
+  .bannereternals .contenteternals h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannereternals .contenteternals p{
+    font-size: 1em;
+  }
+  .slideeternals{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailereternals video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*eternals*/
+/*=========== DISNEY ===========*/
+
+/*=========== PIXAR ===========*/
+/*wanda*/
+.bannerwanda{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Disney/Marvel/wandavision.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerwanda .contentwanda{
+    max-width: 550px;
+  }
+  .bannerwanda .contentwanda h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerwanda .contentwanda h2 span{
+    font-weight: 800;
+  }
+  .bannerwanda .contentwanda p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidewanda{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/VDMEO2PH55BXPI2ACF3KY235VM.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerwanda{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerwanda .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerwanda video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerwanda .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerwanda{
+    padding: 100px 50px;
+  }
+  .bannerwanda .contentwanda h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerwanda .contentwanda p{
+    font-size: 1em;
+  }
+  .slidewanda{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerwanda video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*wanda*/
+  
+  /*eternals*/
+  .bannereternals{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Disney/marvel/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannereternals .contenteternals{
+    max-width: 550px;
+  }
+  .bannereternals .contenteternals h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannereternals .contenteternals h2 span{
+    font-weight: 800;
+  }
+  .bannereternals .contenteternals p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slideeternals{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/Eternals-Pelicula-Poster-Marvel-Studios-Afiche-Entradas-Preventa-Peru-819x1024.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailereternals{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailereternals .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailereternals video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailereternals .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannereternals{
+    padding: 100px 50px;
+  }
+  .bannereternals .contenteternals h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannereternals .contenteternals p{
+    font-size: 1em;
+  }
+  .slideeternals{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailereternals video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*eternals*/
+/*=========== PIXAR ===========*/
+
+/*=========== STAR ===========*/
+/*american*/
+.banneramerican{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/Fondos/SeriesTV/HBO/american-horror-stories-ep-1-2464247.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .banneramerican .contentmerican{
+    max-width: 550px;
+  }
+  .banneramerican .contentmerican h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .banneramerican .contentmerican h2 span{
+    font-weight: 800;
+  }
+  .banneramerican .contentmerican p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidemerican{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/51PtTb-lp1L._AC_.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailermerican{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailermerican .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailermerican video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailermerican .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .banneramerican{
+    padding: 100px 50px;
+  }
+  .banneramerican .contentmerican h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .banneramerican .contentmerican p{
+    font-size: 1em;
+  }
+  .slidemerican{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailermerican video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*american*/
+/*=========== STAR ===========*/
+/*=============== DISNEY ===============*/
+
+
+/*=============== WARNER BROS ===============*/
+/*=========== DC ===========*/
+/*joker*/
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Warner_Bross/DC/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .banner .content{
+    max-width: 550px;
+  }
+  .banner .content h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .banner .content h2 span{
+    font-weight: 800;
+  }
+  .banner .content p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slide{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/joker.png);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailer{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailer .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailer video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailer .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  .selection{
+    padding: 20px, 50px;
+  }
+  .selection .logo{
+    max-width: 80px;
+  }
+  .banner{
+    padding: 100px 50px;
+  }
+  .banner .content h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .banner .content p{
+    font-size: 1em;
+  }
+  .slide{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailer video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  
+  .bannerparte2{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Warner_Bross/DC/Joker-de-Joaquin-Phoenix-758x468.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerparte2 .contentparte2{
+    max-width: 550px;
+  }
+  .bannerparte2 .contentparte2 h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerparte2 .contentparte2 h2 span{
+    font-weight: 800;
+  }
+  .bannerparte2 .contentparte2 p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  
+  @media (max-width: 991px){  
+  .bannerparte2{
+    padding: 100px 50px;
+  }
+  .bannerparte2 .content h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerparte2 .content p{
+    font-size: 1em;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  }
+  /*joker*/
+  /*aquaman*/
+  .banner1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Warner_Bross/DC/aquaman1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .banner1 .content1{
+    max-width: 550px;
+  }
+  .banner1 .content1 h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .banner1 .content1 h2 span{
+    font-weight: 800;
+  }
+  .banner1 .content1 p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slide1{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/71SngnQD70L._AC_SY679_.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailer1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .trailer1 .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailer1 video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailer1 .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  .banner1{
+    padding: 100px 50px;
+  }
+  .banner1 .content1 h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .banner1 .content1 p{
+    font-size: 1em;
+  }
+  .slide1{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailer video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  
+  .bannerparte1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/Warner_Bross/DC/aquaman.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerparte1 .contentparte1{
+    max-width: 550px;
+  }
+  .bannerparte1 .contentparte1 h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerparte1 .contentparte1 h2 span{
+    font-weight: 800;
+  }
+  .bannerparte1 .contentparte1 p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  @media (max-width: 991px){  
+  .bannerparte1{
+    padding: 100px 50px;
+  }
+  .bannerparte1 .contentparte1 h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerparte1 .contentparte1 p{
+    font-size: 1em;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  }
+  /*aquaman*/
+/*=========== DC ===========*/
+
+/*=========== HARRY POTTER ===========*/
+/*bly*/
+.bannerbly{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos//SeriesTV/Netflix/5e61c0a5-5125-47e6-8379-033c63f97905_16-9-discover-aspect-ratio_default_0.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerbly .contentbly{
+    max-width: 550px;
+  }
+  .bannerbly .contentbly h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerbly .contentbly h2 span{
+    font-weight: 800;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidebly{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/unnamed.png);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerbly{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerbly .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerbly video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerbly .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerbly{
+    padding: 100px 50px;
+  }
+  .bannerbly .contentbly h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1em;
+  }
+  .slidebly{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerbly video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*bly*/
+/*=========== HARRY POTTER ===========*/
+
+/*=========== PELICULAS ===========*/
+/*bly*/
+.bannerbly{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos//SeriesTV/Netflix/5e61c0a5-5125-47e6-8379-033c63f97905_16-9-discover-aspect-ratio_default_0.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerbly .contentbly{
+    max-width: 550px;
+  }
+  .bannerbly .contentbly h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerbly .contentbly h2 span{
+    font-weight: 800;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidebly{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/unnamed.png);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerbly{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerbly .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerbly video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerbly .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerbly{
+    padding: 100px 50px;
+  }
+  .bannerbly .contentbly h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1em;
+  }
+  .slidebly{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerbly video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*bly*/
+/*=========== PELICULAS ===========*/
+/*=============== WARNER BROS ===============*/
+
+/*=============== PELICULAS ===============*/
+/*=========== AMAZON ===========*/
+/*bly*/
+.bannerbly{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos//SeriesTV/Netflix/5e61c0a5-5125-47e6-8379-033c63f97905_16-9-discover-aspect-ratio_default_0.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerbly .contentbly{
+    max-width: 550px;
+  }
+  .bannerbly .contentbly h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerbly .contentbly h2 span{
+    font-weight: 800;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidebly{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/unnamed.png);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerbly{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerbly .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerbly video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerbly .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerbly{
+    padding: 100px 50px;
+  }
+  .bannerbly .contentbly h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1em;
+  }
+  .slidebly{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerbly video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*bly*/
+/*=========== AMAZON ===========*/
+
+/*=========== HBO ===========*/
+/*bly*/
+.bannerbly{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos//SeriesTV/Netflix/5e61c0a5-5125-47e6-8379-033c63f97905_16-9-discover-aspect-ratio_default_0.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerbly .contentbly{
+    max-width: 550px;
+  }
+  .bannerbly .contentbly h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerbly .contentbly h2 span{
+    font-weight: 800;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidebly{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/unnamed.png);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerbly{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerbly .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerbly video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerbly .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerbly{
+    padding: 100px 50px;
+  }
+  .bannerbly .contentbly h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1em;
+  }
+  .slidebly{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerbly video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*bly*/
+/*=========== HBO ===========*/
+
+/*=========== NETFLIX ===========*/
+/*bly*/
+.bannerbly{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos//SeriesTV/Netflix/5e61c0a5-5125-47e6-8379-033c63f97905_16-9-discover-aspect-ratio_default_0.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerbly .contentbly{
+    max-width: 550px;
+  }
+  .bannerbly .contentbly h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerbly .contentbly h2 span{
+    font-weight: 800;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidebly{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/unnamed.png);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerbly{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerbly .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerbly video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerbly .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerbly{
+    padding: 100px 50px;
+  }
+  .bannerbly .contentbly h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1em;
+  }
+  .slidebly{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerbly video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*bly*/
+/*=========== NETFLIX ===========*/
+/*=============== PELICULAS ===============*/
+
+/*=============== SERIES TV ===============*/
+/*=========== AMAZON ===========*/
+/*bly*/
+.bannerbly{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos//SeriesTV/Netflix/5e61c0a5-5125-47e6-8379-033c63f97905_16-9-discover-aspect-ratio_default_0.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerbly .contentbly{
+    max-width: 550px;
+  }
+  .bannerbly .contentbly h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerbly .contentbly h2 span{
+    font-weight: 800;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidebly{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/unnamed.png);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerbly{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerbly .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerbly video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerbly .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerbly{
+    padding: 100px 50px;
+  }
+  .bannerbly .contentbly h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1em;
+  }
+  .slidebly{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerbly video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*bly*/
+/*=========== AMAZON ===========*/
+
+/*=========== HBO ===========*/
+/*bly*/
+.bannerbly{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos//SeriesTV/Netflix/5e61c0a5-5125-47e6-8379-033c63f97905_16-9-discover-aspect-ratio_default_0.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerbly .contentbly{
+    max-width: 550px;
+  }
+  .bannerbly .contentbly h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerbly .contentbly h2 span{
+    font-weight: 800;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidebly{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/unnamed.png);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerbly{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerbly .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerbly video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerbly .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerbly{
+    padding: 100px 50px;
+  }
+  .bannerbly .contentbly h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1em;
+  }
+  .slidebly{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerbly video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*bly*/
+/*=========== HBO ===========*/
+
+/*=========== NETFLIX ===========*/
+/*bly*/
+.bannerbly{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos//SeriesTV/Netflix/5e61c0a5-5125-47e6-8379-033c63f97905_16-9-discover-aspect-ratio_default_0.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerbly .contentbly{
+    max-width: 550px;
+  }
+  .bannerbly .contentbly h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerbly .contentbly h2 span{
+    font-weight: 800;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidebly{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/unnamed.png);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerbly{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerbly .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerbly video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerbly .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerbly{
+    padding: 100px 50px;
+  }
+  .bannerbly .contentbly h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerbly .contentbly p{
+    font-size: 1em;
+  }
+  .slidebly{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerbly video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*bly*/
+/*=========== NETFLIX ===========*/
+/*=============== SERIES TV ===============*/
+
+/*=============== DORAMAS ===============*/
+/*=========== CHINAS ===========*/
+  /*extracurricular*/
+  .bannerextracurricular{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/doramas/Coreanas/Extracurricular-netflix.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerextracurricular .contentextracurricular{
+    max-width: 550px;
+  }
+  .bannerextracurricular .contentextracurricular h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerextracurricular .contentextracurricular h2 span{
+    font-weight: 800;
+  }
+  .bannerextracurricular .contentextracurricular p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slideextracurricular{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/Extracurricular-2020-06.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerextracurricular{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerextracurricular .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerextracurricular video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerextracurricular .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerextracurricular{
+    padding: 100px 50px;
+  }
+  .bannerextracurricular .contentextracurricular h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerextracurricular .contentextracurricular p{
+    font-size: 1em;
+  }
+  .slideextracurricular{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerextracurricular video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*extracurricular*/
+/*=========== CHINAS ===========*/
+
+/*=========== COREA ===========*/
+/*happiness*/
+.bannerhappiness{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/doramas/Coreanas/Captura\ de\ pantalla\ 2021-12-11\ 225131.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerhappiness .contenthappiness{
+    max-width: 550px;
+  }
+  .bannerhappiness .contenthappiness h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerhappiness .contenthappiness h2 span{
+    font-weight: 800;
+  }
+  .bannerhappiness .contenthappiness p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slidehappiness{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/Happiness-tvN-2021-02.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerhappiness{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerhappiness .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerhappiness video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerhappiness .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerhappiness{
+    padding: 100px 50px;
+  }
+  .bannerhappiness .contenthappiness h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerhappiness .contenthappiness p{
+    font-size: 1em;
+  }
+  .slidehappiness{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerhappiness video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*happiness*/
+  
+  /*extracurricular*/
+  .bannerextracurricular{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/doramas/Coreanas/Extracurricular-netflix.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerextracurricular .contentextracurricular{
+    max-width: 550px;
+  }
+  .bannerextracurricular .contentextracurricular h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerextracurricular .contentextracurricular h2 span{
+    font-weight: 800;
+  }
+  .bannerextracurricular .contentextracurricular p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slideextracurricular{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/Extracurricular-2020-06.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerextracurricular{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerextracurricular .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerextracurricular video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerextracurricular .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerextracurricular{
+    padding: 100px 50px;
+  }
+  .bannerextracurricular .contentextracurricular h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerextracurricular .contentextracurricular p{
+    font-size: 1em;
+  }
+  .slideextracurricular{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerextracurricular video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*extracurricular*/
+/*=========== COREA ===========*/
+
+/*=========== JAPONESAS ===========*/
+  /*extracurricular*/
+  .bannerextracurricular{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/doramas/Coreanas/Extracurricular-netflix.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerextracurricular .contentextracurricular{
+    max-width: 550px;
+  }
+  .bannerextracurricular .contentextracurricular h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerextracurricular .contentextracurricular h2 span{
+    font-weight: 800;
+  }
+  .bannerextracurricular .contentextracurricular p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slideextracurricular{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/Extracurricular-2020-06.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerextracurricular{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerextracurricular .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerextracurricular video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerextracurricular .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerextracurricular{
+    padding: 100px 50px;
+  }
+  .bannerextracurricular .contentextracurricular h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerextracurricular .contentextracurricular p{
+    font-size: 1em;
+  }
+  .slideextracurricular{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerextracurricular video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*extracurricular*/
+/*=========== JAPONESAS ===========*/
+
+/*=========== TAILANDESAS ===========*/
+  /*extracurricular*/
+  .bannerextracurricular{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url(/Folders/img/fondos/doramas/Coreanas/Extracurricular-netflix.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bannerextracurricular .contentextracurricular{
+    max-width: 550px;
+  }
+  .bannerextracurricular .contentextracurricular h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+  .bannerextracurricular .contentextracurricular h2 span{
+    font-weight: 800;
+  }
+  .bannerextracurricular .contentextracurricular p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+  } 
+  .play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+  }
+  .play img{
+    margin-right: 10px;
+    max-width: 50px;
+  }
+  .sci{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sci li{
+    list-style: none;
+  }
+  .sci li a{
+    text-decoration: none;
+  }
+  .sci li a img{
+    filter: invert(1);
+    transform: scale(0.6);
+  
+  }
+  .slideextracurricular{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20px / 2);
+    width: 250px;
+    height: 150px;
+    background: url(/Folders/img/poster/Extracurricular-2020-06.jpg);
+    background-size: cover;
+    cursor: pointer;
+    animation: animate 25s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%,100%
+    {
+        background-position: top;
+    }
+    45%,55%
+    {
+        background-position: bottom;
+    }
+  }
+  .trailerextracurricular{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  backdrop-filter: blur(20px);
+  visibility:hidden;
+  opacity: 0;
+  }
+  .trailerextracurricular .active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .trailerextracurricular video{
+    max-width: 900px;
+    outline: none;
+  }
+  .trailerextracurricular .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+  }
+  @media (max-width: 991px){  
+  
+  .bannerextracurricular{
+    padding: 100px 50px;
+  }
+  .bannerextracurricular .contentextracurricular h2{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .bannerextracurricular .contentextracurricular p{
+    font-size: 1em;
+  }
+  .slideextracurricular{
+    position: relative;
+    bottom: initial;
+    left: 0;
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  .sci{
+    position: absolute;
+    top: initial;
+    right: initial;
+    margin-top: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sci li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  .trailerextracurricular video{
+    max-width: 90%;
+    outline: none;
+  }
+  }
+  /*extracurricular*/
+/*=========== TAILANDESAS ===========*/
+/*=============== DORAMAS ===============*/
